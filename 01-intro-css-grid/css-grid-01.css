@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid-Container{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 250px);
+
+    gap: 10px 20px;
+
+    /* border: 2px solid; */
+    text-align: center;
+
+    background-color: rgb(0, 0, 0);
+
+    /* alinhas r os elementos do  grid */
+    justify-items: center;
+
+    align-items: center;
+
+/* alinhar o grid */
+    height: 100vh;
+    /* alinhar no eixo horinzoltal */
+    justify-content: center;
+
+    /* alinhae no exieto vertical */
+    align-content: center;
+}
+
+
+
+.grid-Item{
+    background-color: rgb(127, 236, 255);
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .gradiente{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle,rgba(8, 255, 206, 0.30) 0%, rgba(37, 115, 204, 0.5) 50%, rgba(22, 102, 250, 0.8) 100%);
+}
+
+
+body{
+    background-image: url(https://images.pexels.com/photos/17795210/pexels-photo-17795210.jpeg);
+    background-size: cover;
+}
+
+
+.sol{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: radial-gradient(circle,rgb(255, 152, 8) 0%, rgba(239, 162, 18, 1) 32%, rgb(255, 240, 25, 0.3) 62%, rgba(250, 208, 22, 0.2) 100%);
+    border-radius: 50%;
+    box-shadow: rgb(rgb(255, 239, 19), rgb(207, 245, 18), rgb(255, 204, 0));
+} */
+
