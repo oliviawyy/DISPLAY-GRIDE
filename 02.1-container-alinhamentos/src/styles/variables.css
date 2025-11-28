@@ -12,16 +12,16 @@
     --text-light: white;
 
     /* cores salgados */
-    --salgados-accent1: rgb(134,248,35);
-    --salgados-accent2: rgb(125, 215, 189);
+    --salgados-accent1: rgb(117, 35, 248);
+    --salgados-accent2: rgb(144, 125, 215);
 
     /* cores de fundo */
-    --frutas-bg: darkcyan;
-    --doces-bg: darkgoldenrod;
-    --sucos-bg: darkmagenta;
-    --lanches-bg: lightgray;
-    --pizzas-bg: lightsalmon;
-    --circle-image: rgb(236, 122, 249);
+    --frutas-bg: rgb(18, 221, 221);
+    --doces-bg: rgb(38, 174, 238);
+    --sucos-bg: rgb(252, 61, 252);
+    --lanches-bg: rgb(253, 161, 161);
+    --pizzas-bg: rgb(250, 228, 105);
+    --circle-image: rgb(249, 122, 192);
     
     /* gradientes */
     --header-gradient: linear-gradient(to right, var(--header-base), var(--header-dark));
